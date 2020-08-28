@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
 
     //region calculo
     private fun calcular() {
+
         val pesoEmTexto = etPeso.value()
+
         val peso = etPeso.valueDouble()
         val altura = etAltura.valueDouble()
 
